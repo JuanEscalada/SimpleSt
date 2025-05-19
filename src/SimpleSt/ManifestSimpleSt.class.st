@@ -15,3 +15,10 @@ ManifestSimpleSt class >> ruleReNotOptimizedIfRuleV1FalsePositive [
 	<ignoreForCoverage>
 	^ #(#(#(#RGPackageDefinition #(#SimpleSt)) #'2024-12-15T17:13:19.973+01:00') )
 ]
+
+{ #category : 'code-critics' }
+ManifestSimpleSt class >> ruleReturnsIfTrueRuleV1FalsePositive [
+
+	<ignoreForCoverage>
+	^ #(#(#(#RGPackageDefinition #(#SimpleSt)) #'2025-05-19T00:41:08.089-03:00') )
+]

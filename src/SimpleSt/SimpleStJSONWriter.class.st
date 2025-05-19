@@ -58,7 +58,7 @@ SimpleStJSONWriter >> if: anObject isBooleanDo: aBlock [
 		do: [ :signal | signal return ]
 ]
 
-{ #category : 'initalize' }
+{ #category : 'initialization' }
 SimpleStJSONWriter >> initializeOn: aStream [
 
 	stream := aStream
