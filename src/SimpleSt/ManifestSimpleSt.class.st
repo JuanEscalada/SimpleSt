@@ -10,10 +10,24 @@ Class {
 }
 
 { #category : 'code-critics' }
+ManifestSimpleSt class >> ruleLongMethodsRuleV1FalsePositive [
+
+	<ignoreForCoverage>
+	^ #(#(#(#RGPackageDefinition #(#SimpleSt)) #'2025-05-19T02:24:19.186-03:00') )
+]
+
+{ #category : 'code-critics' }
 ManifestSimpleSt class >> ruleReNotOptimizedIfRuleV1FalsePositive [
 
 	<ignoreForCoverage>
 	^ #(#(#(#RGPackageDefinition #(#SimpleSt)) #'2024-12-15T17:13:19.973+01:00') )
+]
+
+{ #category : 'code-critics' }
+ManifestSimpleSt class >> ruleReturnsBooleanAndOtherRuleV1FalsePositive [
+
+	<ignoreForCoverage>
+	^ #(#(#(#RGPackageDefinition #(#SimpleSt)) #'2025-05-19T02:24:25.607-03:00') )
 ]
 
 { #category : 'code-critics' }
