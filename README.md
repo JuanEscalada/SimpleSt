@@ -1,2 +1,5 @@
-# SimpleStJSON
-Minimal Framework to Read and Write JSON format.
+# SimpleSt
+Minimal Framework to Read and Write Multiple Formats.
+
+Currently Supported:
+- JSON
